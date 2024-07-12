@@ -102,7 +102,11 @@ justify-content: space-between;
     display: none;
   }
   .input{
-    width: 89%;
+    width: 85%;
+    color: black;
+  }
+  .div{
+    width: 15%;
   }
   .chiziq , 
   .tavar,
