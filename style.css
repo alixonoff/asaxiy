@@ -101,6 +101,9 @@ justify-content: space-between;
   .links{
     display: none;
   }
+  .input{
+    width: 89%;
+  }
   .chiziq , 
   .tavar,
   .div{
