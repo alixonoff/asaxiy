@@ -104,10 +104,11 @@ justify-content: space-between;
 
 }
 .card{
+
     height: 388px;
     position: relative;
     padding: 5px;
-    top: 120px;
+    top: 140px;
     width: 250px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.651);
@@ -118,7 +119,7 @@ justify-content: space-between;
 .card > img{
     justify-content: center; 
     align-items: center;
-    width: 190px;
+    width: 150px;
     display: flex;
     justify-content: center;
     text-align: center;
