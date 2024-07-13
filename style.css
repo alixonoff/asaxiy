@@ -111,7 +111,7 @@ button:active{
 }
 .cards{
     position: relative;
-    top: 140px;
+    top: 120px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -131,6 +131,11 @@ button:active{
     background: rgba(255, 255, 255, 0.651);
     justify-content: center; 
     align-items: center;
+          display: flex;
+          flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 
 }
 .card > img{
@@ -162,7 +167,33 @@ button:active{
     color: orangered;
     padding: 2px;
 }
+.kompaniy{
+    position: relative;
+    top: 150px;
+    height: 50vh;
+}
+.kom-logo{
+    position: relative;
+    top: 120px;
+    background: white;
+    height: 100px;
+    width: 200px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
 
+}
+.logo-kom{
+    display: flex;
+    gap: 5px;
+}
+.kom-logo > img{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
 @media only screen and (max-width: 500px) {
 
     header{
@@ -188,11 +219,11 @@ button:active{
   }
   .card{
     
-    height: 388px;
+    height: 408px;
     position: relative;
     padding: 5px;
-    top: 140px;
-    width: 120px;
+    /* top: 100px; */
+    width: 160px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.651);
     justify-content: center; 
