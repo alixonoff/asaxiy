@@ -151,7 +151,7 @@ button:active{
     display: flex;
     flex-direction: column;
     text-align: left;
-    gap: 30px;
+    gap: 20px;
 }
 .buttons > button{
     padding: 12px;
@@ -188,6 +188,10 @@ button:active{
 .logo-kom{
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .kom-logo > img{
     display: flex;
@@ -218,12 +222,12 @@ button:active{
     display: none;
   }
   .card{
-    
-    height: 408px;
+    overflow: hidden;
+    height: 428px;
     position: relative;
     padding: 5px;
-    /* top: 100px; */
-    width: 160px;
+    /* top: 120px; */
+    width: 140px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.651);
     justify-content: center; 
